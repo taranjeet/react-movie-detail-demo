@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router';
-import logo from './logo.svg';
 import './App.css';
-import movies from './data.js';
 
 import { MovieList, MovieDetail } from './components';
 

@@ -14,10 +14,11 @@ const MovieDetail = (props) => {
     });
 
     return (
-        <p>
+        <div>
             <h3>{movie[0].name}</h3>
             <h6>{movie[0].year}</h6>
-        </p>);
+        </div>
+        );
 
 }
 
